@@ -3,6 +3,7 @@
       "browser": true,
       "es2021": true
     },
+    "eslintIgnore": ["*.spec.ts", "world.js"],
     "extends": ["eslint:recommended", "plugin:react/recommended", "plugin:react-hooks/recommended"],
     "parserOptions": {
       "ecmaVersion": 12,
@@ -19,6 +20,5 @@
       "indent": ["error", 2],
       "quotes": ["error", "single"],
       "jest/valid-expect": 0
-    },
-    "eslintIgnore": ["*.spec.ts", "world.js"]
+    }
 }  
